@@ -49,4 +49,17 @@ EMAIL_PORT = 587 '''
 ## Deployment Architecture
 ![Screenshot from 2023-12-29 00-16-05](https://github.com/Akshaykumar05/community-forum/assets/114390890/fb381617-f709-4a66-a32d-fa36bfc119eb)
 
-### Deployment
+### Deployment Components
+1. Django
+2. Tornado
+3. NGINX
+4. Supervisor
+5. MEMCACHED
+6. Redis
+7. RabbitMQ
+8. PostgreSQL
+9. Nagios
+
+ #### Django
+
+ 
