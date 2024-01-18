@@ -62,6 +62,7 @@ bash su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 ```
 * **I got an error here during restarting the server, that was "outhentication denied".**
 * **Another error was "403 Forbidden" during opening the link of locally hosted server.**
+* **Error during re-installing the server.**
   
 5. Add Auth methods
   * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL.
