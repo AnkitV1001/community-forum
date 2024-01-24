@@ -65,6 +65,13 @@ bash su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 * **Error during re-installing the server.**
 * **SMTP Error**
   * We tried to enable this service, but user is not getting the mail request. (23 Jan 24)
+  * We got the suggestion on Allemp to install **Postfix** locally (same server) on the zulip system. So now I'm exploring Postfix.
+  * 
+    ### Postfix
+    ![image](https://github.com/Akshaykumar05/community-forum/assets/114390890/fbbf42cf-7a5b-464b-bde4-f677b5c13ab9)
+
+    * Postfix is a hugely-popular Mail Transfer Agent (MTA) designed to determine routes and send emails. This cross-platform server is open-source, free, and suitable for installation on the majority of UNIX-like operating systems.
+    * [Suggested link](https://www.fosstechnix.com/how-to-configure-postfix-with-gmail-on-ubuntu/) (from allemp) to Configure Postfix with Gmail on Ubuntu
   
 5. Add Auth methods
   * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL. 
