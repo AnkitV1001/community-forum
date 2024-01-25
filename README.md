@@ -121,7 +121,7 @@ Sending 2 test emails from:
 
 Successfully sent 2 emails to manishbarman117@gmail.com!
 ```
-* but I face a error that User can not get mail.
+* But I face an issue that User unable to get mail request.
 
   * We got the suggestion on Allemp to install **Postfix** locally (same server) on the zulip system. So now I'm exploring Postfix.
   * 
